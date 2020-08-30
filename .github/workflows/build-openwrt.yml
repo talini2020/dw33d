@@ -25,7 +25,7 @@ on:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/xuy132/Orangepi-r1-openwrt
+  REPO_URL: -b openwrt-18.06 https://github.com/openwrt/openwrt.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
